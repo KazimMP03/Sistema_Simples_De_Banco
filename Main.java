@@ -21,5 +21,8 @@ public class Main {
 
         System.out.println("\nSaldo atual: "+poupanca.getSaldo());
         System.out.println("\nSaldo atual: "+corrente.getSaldo());
+
+        poupanca.calcularRendimento();
+        System.out.println("\nRendimento atual: "+ poupanca.getSaldo());
     }
 }
